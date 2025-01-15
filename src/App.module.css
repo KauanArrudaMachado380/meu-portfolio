@@ -12,3 +12,7 @@
     --fonte-principal: "Montserrat", sans-serif;
     --fonte-titulo: "Bellefair", sans-serif;
 }
+
+body{
+    background-color: black;
+}

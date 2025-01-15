@@ -19,7 +19,8 @@
     color: var(--cor-texto);
     font-family: var(--fonte-titulo);
     position: absolute;
-    top: 10%;
+    top: 13%;
+    left: 4%;
 }
 
 @media(min-width: 1000px){

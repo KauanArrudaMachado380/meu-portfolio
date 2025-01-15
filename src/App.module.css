@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor-principal : #172026;
+    --cor-destaque: #5FCDD9;
+    --cor-bordas: #027373;
+    --cor-texto: #ffffff;
+
+    --fonte-principal: "Montserrat", sans-serif;
+    --fonte-titulo: "Bellefair", sans-serif;
+}

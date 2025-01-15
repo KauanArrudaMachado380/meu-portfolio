@@ -1,0 +1,23 @@
+.navMobile{
+    display: block;
+}
+
+.burger{
+    position: absolute;
+    right: 5%;
+    top: 15%;
+    color: white;
+}
+
+.close{
+    position: absolute;
+    right: 6%;
+    top: 4%;
+    color: white;
+}
+
+@media(min-width: 1200px){
+    .navMobile{
+        display: none;
+    }
+}

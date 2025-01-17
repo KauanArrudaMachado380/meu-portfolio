@@ -1,3 +1,59 @@
+.section{
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .section h1{
     font-family: var(--fonte-titulo);
+    color: var(--cor-texto);
+}
+
+.containerCards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--cor-texto);
+}
+
+.cardFront, .cardLinguagem, .cardUiUx, .cardOutros{
+    width: 90%;
+    margin: 20px 0;
+    border: 4px solid var(--cor-bordas);
+    border-radius: 15px;
+    background-color: var(--cor-principal);
+
+    h2{
+        font-family: var(--fonte-titulo);
+        background-color: var(--cor-bordas);
+        padding: 6px ;
+        font-size: 28px;
+    }
+
+    ul{
+        list-style: inside;
+        list-style-type: disc;
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        gap: 10px;
+    }
+
+    ul li{
+        font-size: 17px;
+        line-height: 1.5;
+    }
+}
+
+.cardFront{
+
+    ul{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.brasil, .usa, .espanha{
+    width: 50px;
 }

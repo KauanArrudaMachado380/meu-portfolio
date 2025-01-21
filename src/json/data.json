@@ -1,0 +1,25 @@
+{
+
+	"projetos": [
+			
+			{
+				"nome": "Space Tour",
+				"link": "https://space-tour-theta.vercel.app/",
+				"github": "https://github.com/KauanArrudaMachado380/space-tour",
+				"descricao" : "Projeto desenvolvido com React, CSS Grid Layout e abordagem Mobile First para garantir responsividade. Conta com navegação entre páginas temáticas (Destinos, Tripulação, Tecnologia) e foi baseado em um desafio do Frontend Mentor, utilizando Media Queries para adaptação em diferentes dispositivos."
+			},
+			{
+				"nome": "Adcive Generator",
+				"link": "https://advice-generator-pink.vercel.app/",
+				"github": "https://github.com/KauanArrudaMachado380/advice-generator",
+				"descricao" : "O Advice Generator é uma aplicação web que fornece conselhos aleatórios aos usuários. Construído com React, o aplicativo consome a Advice Slip API para obter os conselhos, exibindo-os de forma dinâmica na interface. A aplicação foi inicializada com o Create React App, facilitando a configuração e o desenvolvimento."
+			},
+			{
+				"nome": "Bento GridMain",
+				"link": "https://bento-grid-main-eight.vercel.app/",
+				"github": "https://github.com/KauanArrudaMachado380/bentoGridMain",
+				"descricao" : "Projeto focado no uso do CSS Grid Layout para criar uma interface responsiva e bem estruturada. O código organiza os elementos da página de forma eficiente, aproveitando a flexibilidade do Grid para criar designs adaptáveis e funcionais. Ideal para explorar as possibilidades dessa poderosa ferramenta de layout no desenvolvimento front-end."
+			}
+		]
+
+}

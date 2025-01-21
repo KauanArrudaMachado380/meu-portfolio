@@ -23,6 +23,7 @@
     width: 90%;
     margin: 20px auto;
     border: 3px solid var(--cor-bordas);
+    font-family: var(--fonte-principal);
     border-radius: 15px;
     background-color: var(--cor-principal);
 
@@ -63,6 +64,33 @@
     }
 }
 
+@media(min-width: 650px){
+
+    .section{
+        margin-top: 15%;
+    }
+
+    .section h1{
+        font-size: 2em;
+    }
+
+    .cardFront, .cardLinguagem, .cardUiUx, .cardOutros{
+        width: 70%;
+        margin: 20px auto;
+        border: 3px solid var(--cor-bordas);
+        border-radius: 15px;
+        background-color: var(--cor-principal);
+    
+        h2{
+            font-size: 2em;
+        }
+    
+        ul li{
+            font-size: 20px;
+        }
+    }
+}
+
 @media(min-width: 1200px){
 
     .section{
@@ -81,6 +109,10 @@
         'outros uiux';
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
+    }
+
+    .cardFront, .cardLinguagem, .cardUiUx, .cardOutros{
+        width: 90%;
     }
 
     .cardFront{

@@ -1,0 +1,38 @@
+.container{
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--cor-texto);
+    font-family: var(--fonte-principal);
+    gap: 40px;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.titulo h1 {
+    font-family: var(--fonte-titulo);
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.titulo p{
+    font-size: 14px;
+}
+
+@media(min-width: 650px){
+
+    .container{
+        margin-top: 10%;
+    }
+
+    .titulo h1 {
+        font-size: 3em;
+    }
+
+    .titulo p{
+        font-size: 20px;
+    }
+}

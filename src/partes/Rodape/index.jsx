@@ -1,4 +1,5 @@
 import Contatos from "../../componts/Contatos";
+import './Rodape.module.css'
 
 function Rodape () {
     return (

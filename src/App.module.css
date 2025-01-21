@@ -4,6 +4,7 @@
 }
 
 :root{
+    --cor-fundo: #000000;
     --cor-principal : #172026;
     --cor-destaque: #5FCDD9;
     --cor-bordas: #027373;
@@ -13,6 +14,3 @@
     --fonte-titulo: "Bellefair", sans-serif;
 }
 
-body{
-    background-color: black;
-}

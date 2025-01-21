@@ -3,9 +3,11 @@ import Habilidades from "../../componts/Habilidades";
 import Projetos from "../../componts/Projetos";
 import SobreMim from "../../componts/SobreMim";
 
+import styled from './Main.module.css';
+
 function Main () {
     return (
-        <main>
+        <main className={styled.main}>
             <Banner/>
             <SobreMim/>
             <Habilidades/>

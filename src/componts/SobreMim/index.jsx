@@ -4,7 +4,7 @@ import fotoMinha from "../../assets/fotoPerfil.jpg";
 
 function SobreMim() {
     return(
-        <article className={styled.article}>
+        <article className={styled.article} id='SobreMim'>
             <h1>Sobre mim</h1>
             <div className={styled.container}>
                 <div className={styled.card}>

@@ -7,26 +7,30 @@ import { SlClose } from "react-icons/sl";
 
 function NavMobile() {
 
-    const [active, setActive] = useState(false);
+    /* Está gerenciando o estado do botão do menu hamburguer, e trocando o icone em questão */
 
-    function isActive (){
-        setActive(!active);
+    const [ativo, setAtivo] = useState(false); /* É responsável por alterar o valor do ativo, assim alterando os ícones */ 
+
+    function isAtivo (){
+        setAtivo(!ativo);
     }
 
     const MenuAberto = <CgMenuRound 
         size='40px' 
         className={styled.burger} 
-        onClick={() => isActive()}/>
+        onClick={() => isAtivo()}/>
 
     const MenuFechado = <SlClose 
         size='33px' 
         className={styled.close} 
-        onClick={() => isActive()}/>
+        onClick={() => isAtivo()}/>
+
+    /* */
 
     return (
         <nav className={styled.navMobile}>
-            {active? MenuFechado : MenuAberto}
-            {active && <MenuItens/>}
+            {ativo? MenuFechado : MenuAberto}
+            {ativo && <MenuItens/>}
         </nav>
     )
 }

@@ -4,7 +4,7 @@ import ES from 'country-flag-icons/react/3x2/ES';
 import styled from './Habilidades.module.css';
 
 const frontEnd =
-    <div className={styled.cardFront}>
+    <div className={styled.cardFront} key='FrontEnd'>
         <h2>Font-end</h2>
         <ul>
             <li>Criação de interfaces com HTML e CSS</li>
@@ -17,7 +17,7 @@ const frontEnd =
     </div>;
 
 const linguagem =
-    <div className={styled.cardLinguagem}>
+    <div className={styled.cardLinguagem} key='Linguagem'>
         <h2>Idiomas</h2>
         <ul>
             <li>Português (nativo) 
@@ -39,7 +39,7 @@ const linguagem =
     </div>;
 
 const UiUx = 
-    <div className={styled.cardUiUx}>
+    <div className={styled.cardUiUx} key='UiUx'>
         <h2>Ui/Ux</h2>
         <ul>
             <li>Utilização do Figma para criar protótipos interativos e analisar layouts de UI/UX</li>
@@ -49,7 +49,7 @@ const UiUx =
     </div>;
 
 const outras = 
-    <div className={styled.cardOutros}>
+    <div className={styled.cardOutros} key='Outras'>
         <h2>Outros</h2>
         <ul>
             <li>Controle de versões com Git</li>
@@ -64,7 +64,7 @@ const listaHabilidades = [frontEnd, linguagem, UiUx, outras];
 
 function Habilidades () {
     return (
-        <section className={styled.section}>
+        <section className={styled.section} id='Habilidades'>
             <h1>Minhas Habilidades</h1>
             <div className={styled.containerCards}>
                 {listaHabilidades.map((item) => {return(

@@ -1,13 +1,12 @@
 import styled from "./Banner.module.css";
-import BannerImage from "../../assets/banner.jpg";
+
 
 function Banner() {
     return (
-        <section className={styled.container}>
-            <figure className={styled.figure}>
-                
-                <h1>Olá, bem-vindos ao meu site!</h1>
-            </figure>
+        <section className={styled.container} id='Home'>
+            <div className={styled.figure}>
+                <h1>Olá! Seja bem-vindo ao meu portfólio – aqui, você vai descobrir como transformo desafios em soluções e ideias em resultados.</h1>
+            </div>
         </section>
     )
 }

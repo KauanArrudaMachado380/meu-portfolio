@@ -4,7 +4,7 @@ import './Rodape.module.css'
 function Rodape () {
     return (
         <footer>
-            <Contatos/>
+            <Contatos />
         </footer>
     )
 }

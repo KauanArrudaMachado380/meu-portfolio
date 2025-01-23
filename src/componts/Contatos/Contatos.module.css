@@ -12,3 +12,9 @@
     font-family: var(--fonte-titulo);
     font-size: 28px;
 }
+
+.links{
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+}

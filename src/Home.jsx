@@ -2,11 +2,11 @@ import Cabecalho from "./partes/Cabecalho";
 import Main from "./partes/Main";
 import Rodape from "./partes/Rodape";
 
-import './App.module.css'
+import styled from './Home.module.css'
 
 function Home() {
   return (
-    <div>
+    <div className={styled.home}>
       <Cabecalho/>
       <Main/>
       <Rodape/>

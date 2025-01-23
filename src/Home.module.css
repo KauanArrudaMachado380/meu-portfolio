@@ -14,3 +14,14 @@
     --fonte-titulo: "Bellefair", sans-serif;
 }
 
+.home{
+    background-image: url('/src/assets/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.home::-webkit-scrollbar{
+    display: none;
+}
